@@ -9,7 +9,7 @@ OUTPUT_NAME = "libg_PATCHED.so"
 class HexPatcherGUI:
     def __init__(self, root):
         self.root = root
-        root.title("Hex Replace Patcher")
+        root.title("Server Patcher")
 
         self.file_path = StringVar(value="(no file selected)")
 
@@ -92,3 +92,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
